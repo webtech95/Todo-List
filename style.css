@@ -1,0 +1,106 @@
+
+
+/*  To do List */
+
+body {
+    background-color: gray;
+    padding: 100px;
+}
+
+#container {
+    text-align: center;
+    padding: 5% 5%;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+/* to do header */
+#container h2 {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* styling todo input and buttons */
+#todo-input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo-input-div input {
+    border: solid black 1 px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 30px;
+    
+}
+
+/* to do add button  */
+
+#todo-input-div button {
+    background-image: linear-gradient(to right, #283c86 0%, #45a247 51%, #283c86 100%)
+}
+
+#todo-input-div button {
+    margin: 10px;
+    padding: 17px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #9fcca9;
+    border-radius: 10px;
+    display: block;
+}
+
+#todo-input-div button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* todo-list-item */
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+
+#todo-list li {
+    font-size: large;
+}
+
+/* Deltel button */
+
+
+.delete-btn {
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%)
+}
+
+.delete-btn {
+    margin: 10px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #f16969;
+    border-radius: 5px;
+    display: block;
+}
+
+.delete-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
